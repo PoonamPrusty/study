@@ -9,6 +9,11 @@
 	echo ++$a;
 	echo $b++;
 	echo MY_CONSTANT;
+	echo $a.=$b;
+	echo $a*=$b;
+	echo $a&=$b;
+
+
 	
 
 
