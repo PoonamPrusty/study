@@ -11,7 +11,7 @@
 	for($i=0;$i<5;$i++){
 		echo $i;}
 	do{ 
-		echo "yes"; }while($a!=$b);
+		echo "yes";$a++; }while($a<125);
 	$x=array("X","Y");
 	foreach($x as $key =>$val){
 		echo $val;}

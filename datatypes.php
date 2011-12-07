@@ -4,9 +4,11 @@
 	$c=2.42;
 	$d='d';
 	$e=3.5478;
-	echo ($b==$c)?true:false;
+	$f="";
+	var_dump(true);
 	var_dump($a);
 	var_dump($b);
 	var_dump($c);
 	var_dump($d);
-	var_dump($e);
+	var_dump(null);
+	var_dump(fopen(abc,w));
