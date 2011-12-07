@@ -1,11 +1,16 @@
 <?php
-	echo "abc";
+	echo "abc <br/>";
 	$a="apple";
-	echo $a;
+	echo $a."<br/>";
 	$x=array("A","B");
+	echo "<pre>";
 	print_r($x);
-	class Car{
-		public function col(){
-		$color="red";}
-		echo $this->color;
-		}
+	echo "</pre>";
+	function col(){
+		echo "red<br/>";}
+	col();
+	print "ab <br/>";
+	var_dump("abc");
+?>
+	abc;
+	
