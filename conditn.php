@@ -1,4 +1,5 @@
 <?php
+	//if-else;for;while;do-while;ternary condition;switch-case.
 	$a=123;
 	$b=345;
 	$c=789;
@@ -15,3 +16,4 @@
 	$x=array("X","Y");
 	foreach($x as $key =>$val){
 		echo $val;}
+	echo($a<0)?false:true;
